@@ -10,5 +10,3 @@ depth <- aggregated_input[aggregated_input[, 1] == 'down',][, 2] -
 horizontal * depth
 
 # Part 2
-
-

@@ -7,7 +7,7 @@ length(input[input > input_shiffted])
 
 # Part 2
 input <- as.numeric(read_lines("day1.txt"))
-indices <- which(input %% 1 == 0)
+indices <- seq_along(input)
 indices <- indices[3:length(indices)]
 
 sums <- sapply(indices, FUN = function(i) {
