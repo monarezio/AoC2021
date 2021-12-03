@@ -1,3 +1,5 @@
+library(readr)
+
 # Part 1
 input <- as.numeric(read_lines("day1.txt"))
 input_shiffted <- c(Inf, input[seq_along(input) - 1])
